@@ -79,7 +79,7 @@
             z-index: 0;
         }
 
-        .header-wrapper, .otono-banner, .otono-section, .container {
+        .otono-banner, .otono-section, .container {
             position: relative;
             z-index: 1;
         }
@@ -231,21 +231,20 @@
         .header-brand {
             flex: 1;
             text-align: center;
-            padding: 30px 20px 25px;
-            animation: fadeInDown 1s ease;
-            background: rgba(255, 252, 248, 0.55);
-            backdrop-filter: blur(14px) saturate(1.4);
-            -webkit-backdrop-filter: blur(14px) saturate(1.4);
-            box-shadow:
-                0 2px 0 rgba(255, 255, 255, 0.7) inset,
-                0 4px 30px rgba(180, 90, 30, 0.10),
-                0 1px 6px rgba(200, 120, 40, 0.08);
-            border: 1px solid rgba(255, 230, 200, 0.55);
-            display: inline-block;
-            margin: 20px auto;
-            border-radius: 20px;
-            width: auto;
-            min-width: 300px;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 4rem;
+            font-style: italic;
+            font-weight: 600;
+            background: linear-gradient(145deg, #E0608E 0%, #C8366E 45%, #9C1F52 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.05;
+            margin: 0 0 6px;
+            letter-spacing: -0.5px;
         }
 
         .header-tagline {
@@ -1397,31 +1396,6 @@
         </div>
     </div>
 
-    <!-- Bridge fade: warm catalog → dark autumn -->
-    <div class="otono-bridge" aria-hidden="true"></div>
-
-    <!-- ===== BANNER OTOÑO ===== -->
-    <div class="otono-banner">
-        <div class="otono-leaves" aria-hidden="true">
-            <span class="leaf" style="left:5%;animation-duration:7s;animation-delay:0s;font-size:1.2rem;">🍂</span>
-            <span class="leaf" style="left:18%;animation-duration:9s;animation-delay:1.5s;">🍁</span>
-            <span class="leaf" style="left:35%;animation-duration:6s;animation-delay:3s;font-size:1rem;">🍂</span>
-            <span class="leaf" style="left:52%;animation-duration:8s;animation-delay:0.7s;font-size:1.6rem;">🍁</span>
-            <span class="leaf" style="left:68%;animation-duration:7.5s;animation-delay:2s;">🍂</span>
-            <span class="leaf" style="left:82%;animation-duration:10s;animation-delay:0.3s;font-size:1.1rem;">🍁</span>
-            <span class="leaf" style="left:93%;animation-duration:6.5s;animation-delay:4s;">🍂</span>
-        </div>
-        <p class="otono-eyebrow">Colección especial · 21 de marzo</p>
-        <div class="otono-date-chip">Inicio del Otoño 2026</div>
-        <h2 class="otono-title">Ramos de <em>Temporada</em></h2>
-        <p class="otono-subtitle">Tres creaciones únicas que capturan la calidez y los tonos dorados del otoño. Solo por tiempo limitado.</p>
-        <div class="otono-divider">
-            <span></span>
-            <em>✦</em>
-            <span></span>
-        </div>
-    </div>
-
     <!-- ===== PRODUCTOS OTOÑO ===== -->
     <div class="otono-section">
         <div class="otono-grid">
@@ -1437,7 +1411,7 @@
                 </div>
                 <div class="otono-card-body">
                     <h3 class="otono-card-name">Ramo Rayos de Sol</h3>
-                    <p class="otono-card-desc">Nueve rosas amarillas de satén coronadas con una delicada tiara de cristal plateada. Envueltas en papel blanco y kraft con lazo de satén dorado. Alegría pura en cada pétalo.</p>
+                    <p class="otono-card-desc">Siete rosas amarillas de satén coronadas con una delicada tiara de cristal plateada. Envueltas en papel blanco y kraft con lazo de satén dorado. Alegría pura en cada pétalo.</p>
                     <div class="otono-price-row">
                         <span class="otono-price">$10.000</span>
                     </div>
